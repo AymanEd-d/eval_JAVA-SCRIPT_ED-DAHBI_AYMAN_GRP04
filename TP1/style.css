@@ -1,0 +1,116 @@
+:root {
+    --texte: #f1f1f1;
+    --background: #121212;
+    
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.border {
+    border: 2px solid rgb(48, 47, 47);
+}
+
+#logo {
+    height: 80px;
+    width: 80px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--texte);
+}
+
+nav ul li {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: black;
+}
+
+header {
+    padding: 20px;
+}
+
+.w-50 {
+    width: 100%;
+}
+
+.w-200 {
+    width: 100%;
+}
+
+
+section {
+    padding: 40px 20px 20px 20px;
+}
+
+
+div {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+ a {
+    color: var(--texte);
+ }
+
+h1 {
+    color: var(--texte);
+}
+
+h3 {
+    color: var(--texte);
+}
+
+p {
+    color: var(--texte);
+}
+
+h4 {
+    color: var(--texte);
+}
+
+* {
+    box-sizing: border-box;
+    }
+
+    body {
+        color:var(--background);
+        background-color: var(--background);
+       margin:0;
+        }
+    
+.ThemeColor {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
